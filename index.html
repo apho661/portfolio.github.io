@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<title>My Business Porfolio</title>
+		<link rel="stylesheet" href="style.css">
+		<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<nav>
+			<h1> AN PHO </h1>
+			<ul class="navigation">
+				<li><a href="#about" class="nav-link">About</a></li>
+				<li><a href="#skills" class="nav-link">Skills</a></li>
+				<li><a href="#projects" class="nav-link">Projects</a></li>
+				<li><a href="#contact" class="nav-link">Contact</a></li>
+			</ul>
+		</nav>
+		<section class="home" id="about">
+			<img src="cow.png" alt="a-cow" loading="lazy" class="home-img"/>
+			<div class="bio-section">
+				<h2 class="bio-title">About Me</h2>
+				<p class="bio-text">
+					Hello everyone! I'm An. I love Japan and their culture. I'm into anime, manga, and nendoroids. One of my hobbies is to collect nendoroids from different anime. I also starting to collect physical copies of manga. My dream is to have a collection of them and to display them on a bookshelf. Other than Japan, I'm also into traveling. I have traveled to 10 countries, and I'm still counting. My next destination I would love to go to is Australia, mainly because I want to see the kangaroos. 
+				</p> 
+			</div>
+		</section>
+		<section class="more-about">
+			<h2>More About Me</h2>
+			<p>
+				I'm a college graduate with a Computer Engineering degree. I attended UCR for 5 years. The first 2 years, I was a Biology major. Due to my grades and GPA, I decided to switch major. Currently, I'm looking to improve my web development skills. This personal website is one my projects. 
+			</p>
+			<p>
+				In addition, I'm currently working as a tutor and teacher. I tutor 4 days a week and teach 1 day a week. I teach kids how to be a good digital citizen, as well as coding. As for tutoring, I help students with their Math and English homework, and sometimes I help them with Science and History homework. 
+			</p>
+			<p>
+				I'm hoping to move on from my temporary job, and get a permanate web development job. My goal for 2022 is to be independent.
+			</p>
+		</section>
+		<section class="skills" id="skills">
+			<h2 class="skill-title">My Technical Skills</h2>
+			<div class="skills-wrapper">
+				<div class="first-set">
+					<img src="python_logo.png" alt="" loading="lazy" class="skills-img"/>
+					<img src="C_logo.png" alt="" loading="lazy" class="skills-img"/>
+					<img src="C++.png" alt="" loading="lazy" class="skills-img"/>
+				</div>
+				<div class="second-set">
+					<img src="CSS_logo.png" alt="" loading="lazy" class="skills-img"/>
+					<img src="Html_logo.png" alt="" loading="lazy" class="skills-img"/>
+					<img src="android_studio.png" alt="" loading="lazy" class="skills-img"/>
+				</div>
+			</div>
+		</section>
+		<section class="projects" id="projects">
+			<h2 class="projects-title">Some of My Recent Projects</h2>
+			<div class="projects-container">
+				<div class="project-container">
+					<img src="Calculator.png" alt="calculator" loading="lazy" class="project-img"/>
+					<h3 class="project-title">My Personal Calculator</h3>
+					<p class="project-detail">
+						I created a personal calculator with simple functions such as adding, multiplication, subtaction, and division.
+					</p>
+					<a href="#" target="_blank" class="project-link">Check It Out</a>
+				</div>
+				<div class="project-container">
+					<img src="QuizAboutMe.png" alt="quiz" loading="lazy" class="project-img"/>
+					<h3 class="project-title">Quiz About Me</h3>
+					<p class="project-detail">
+						I created a quiz about myself. After the quiz is finished, it shows the total score and the questions the player gets wrong.
+					</p>
+					<a href="#" target="_blank" class="project-link">Check It Out</a>
+				</div>
+				<div class="project-container">
+					<img src="Filter.png" alt="filter" loading="lazy" class="project-img"/>
+					<h3 class="project-title">Funny Filter</h3>
+					<p class="project-detail">
+						I created a filter application, similar to Snapchat. It superimposes a picture on top of the video feed. 
+					</p>
+					<a href="#" target="_blank" class="project-link">Check It Out</a>
+				</div>
+			</div>
+		</section>
+		<section class="contact" id="contact">
+			<h2>Get in Touch With Me</h2>
+			<div class="contact-form-container">
+				<div class="contact-form">
+					<form action="https://formspree.io/f/xyylngw" method="POST">
+						<div class="form-control">
+							<label for="name">Name</label>
+							<input type="text" id="name" name="sender-name" placeholder="Enter your name" class="input-field" required/>
+						</div>
+						<div class="form-control">
+							<label for="email">Email</label>
+							<input type="email" id="email" name="sender-email" placeholder="Enter your email" class="input-field" required/>
+						</div>
+						<div class="form-control">
+							<label for="message">Message</label>
+							<textarea id="message" cols="60" rows="10" name="message" placeholder="Enter your message" class="input-field" required></textarea> 
+						</div>
+						<input type="submit" value="Submit" id="submit-button" class="submit-button"/>
+					</form>
+				</div>
+			</div>
+		</section>
+		<footer>
+			<p class="copy">&copy; Copyright 2022</p>
+			<p class="copy">Built with &#x2661; by An Pho</p>
+		</footer>
+		<i class="scroll-up" id="scroll-up">
+			<img src="arrow.png" class="up-arrow" alt="scroll-up"/>
+		</i>
+	</body>
+	<script type="text/javascript" src="script.js"></script>
+</html>
