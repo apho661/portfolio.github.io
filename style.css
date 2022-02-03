@@ -309,13 +309,13 @@ footer {
 	}
 
 	.home img {
-		height: 20rem; 
-		width: 28rem;
+		height: 18rem; 
+		width: 26rem;
 	}
 
 	.bio-section {
 		margin-top: 2rem;
-		width: 26rem;
+		width: 21rem;
 	}
 
 	.more-about {
@@ -351,12 +351,12 @@ footer {
 
 @media screen and (max-width: 420px) {
 	.home img {
-		height: 20rem; 
-		width: 28rem;
+		height: 16rem; 
+		width: 24rem;
 	}
 
 	.bio-section {
-		width: 20rem;
+		width: 19rem;
 	}
 
 	.project-container {
