@@ -72,6 +72,8 @@ nav ul li {
 
 .home img {
 	margin-top: 80px;	/*move the image down*/
+	height: 20rem; 
+	width: 28rem;
 }
 
 .bio-section {
@@ -87,7 +89,7 @@ nav ul li {
 }
 
 .bio-section p {
-	line-height: 1.7rem;
+	line-height: 1.5rem;
 	padding: 0.3rem 0;
 }
 
